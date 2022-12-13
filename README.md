@@ -16,7 +16,7 @@ cargo run -- -a <ksm_address> >> output.txt
 
 ## Generating SCALE file
 
-You need the `subxt-cli` to run this.
+You need the [`subxt`](https://docs.substrate.io/reference/command-line-tools/subxt/) cli to run this.
 
 ```sh
 subxt metadata -f bytes --url wss://kusama-rpc.dwellir.com:443 > kusama_metadata.scale
